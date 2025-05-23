@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(135deg, #ffe29f 0%, #ffa99f 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+  position: relative;
+  z-index: 2;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+h1 {
+  font-size: 2.2em;
+  margin: 0;
+  color: #ef476f;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  color: #555;
+  margin-top: 8px;
+}
+
+.mini-article {
+  font-size: 1.07em;
+  line-height: 1.6;
+  padding: 18px;
+  background: #f7f7ff;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(239,71,111,0.07);
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.slogan {
+  background: linear-gradient(90deg, #ef476f 30%, #ffd166 70%);
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  display: inline-block;
+  box-shadow: 0 2px 10px rgba(239,71,111,0.09);
+}
+
+.watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-20deg);
+  font-size: 3em;
+  color: rgba(180, 180, 180, 0.18);
+  user-select: none;
+  pointer-events: none;
+  z-index: 1;
+  white-space: nowrap;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 0.07em;
+}
